@@ -14,20 +14,48 @@
 		<link href="https://fonts.googleapis.com/css2?family=Inter&family=Spectral:ital,wght@0,400;1,300;1,400;1,800&display=swap" rel="stylesheet">
 		<script type="application/ld+json">
 			{
-				"@context": "https://schema.org","@type": "Photographer","name": "Nina Carducci","telephone": "(+33) 05 56 67 78 89","email": "info@ninacarducci.fr","address": {
-					"@type": "PostalAddress","addressLocality": "Paris","addressCountry": "France"
-				}
-				,"sameAs": "https://www.instagram.com/ninacarducci.photo/?hl=fr","description": "Nina Carducci : Photographe experte en entreprise, mariages, portraits et concerts.","image": "./assets/images/nina.png"
+				"@context": "https://schema.org",
+				"@type": "Person",
+				"@id": "https://www.ninacarducci.fr",
+				"name": "Nina Carducci",
+				"telephone": "(+33) 05 56 67 78 89",
+				"email": "info@ninacarducci.fr",
+				"address": {
+					"@type": "PostalAddress",
+					"addressLocality": "Paris",
+					"addressCountry": "France"
+				},
+				"homeLocation": {
+					"@type": "Place",
+					"geo": {
+						"@type": "GeoCoordinates",
+						"latitude": "50.9368083",
+						"longitude": "2.1978087"
+					}
+				},
+				"sameAs": "https://www.instagram.com/ninacarducci.photo/?hl=fr",
+				"description": "Nina Carducci : Photographe experte en entreprise, mariages, portraits et concerts.",
+				"image": "https://www.ninacarducci.fr/assets/images/nina.png",
+				"url": "https://www.ninacarducci.fr",
+				"potentialAction": [
+					{
+						"@type": "Offer",
+						"name": "Shooting photo",
+						"price": "350",
+						"priceCurrency": "EUR"
+					},
+					{
+						"@type": "Offer",
+						"name": "Retouches",
+						"price": "50",
+						"priceCurrency": "EUR"
+					}
+				]
 			}
-		</script>
+			</script>
+			
 	</head>
 	<body>
-		<div itemscope itemtype="http://schema.org/Place">
-			<div itemprop="geo" itemscope itemtype="http://schema.org/GeoCoordinates">
-				<meta itemprop="latitude" content="50.9368083">
-				<meta itemprop="longitude" content="2.1978087">
-			</div>
-		</div>
 		<header>
 			<h1>Nina Carducci</h1>
 			<nav>
